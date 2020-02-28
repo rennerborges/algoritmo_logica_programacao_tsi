@@ -8,10 +8,10 @@ int main() {
     int bimestre;
 
     printf("Infome o nome do aluno: ");
-    scanf("%s",&nome);
+    gets(nome);
 
     printf("Informe a disciplina correspondente: ");
-    scanf("%s",&disciplina);
+    gets(disciplina);
 
     printf("Informe o bimestre: ");
     scanf("%d",&bimestre);
