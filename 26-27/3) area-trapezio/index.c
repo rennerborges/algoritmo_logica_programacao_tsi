@@ -4,7 +4,6 @@
 
 int main() {
     float base1,base2, altura, area;
-
     printf("Informe a base 1: ");
     scanf("%f",&base1);
 
