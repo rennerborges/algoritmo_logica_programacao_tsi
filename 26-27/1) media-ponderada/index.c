@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    char nome, disciplina;
+    char nome[60], disciplina[60];
     float nota1,nota2,nota3,media;
     int bimestre;
 
@@ -27,6 +27,12 @@ int main() {
 
     media = (nota1*1 + nota2*2 + nota3*3)/6;
 
-    printf("A media ponderada é: %.1f", media);
+    printf("=================================================\n");
+    printf("Aluno: %s \n",nome);
+    printf("Disciplina: %s \n",disciplina);
+    printf("Bimestre: %d \n",bimestre);
+    printf("Notas 1,2,3 respectivamente: %.1f, %.1f, %.1f \n", nota1,nota2,nota3);
+    printf("=================================================\n");
+    printf("A media ponderada é: %.1f \n", media);
     return 0;
 }
