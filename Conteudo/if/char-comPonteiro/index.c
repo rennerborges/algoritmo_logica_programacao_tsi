@@ -3,9 +3,8 @@
 
 int main(void)
 {
-    // Declarando as variaveis do tipo texto/string com as * assim definindo o ponteiro
-    // O malloc recebe como argumento o número de bytes a ser alocado
-    char *nome= malloc(NULL), *sobrenome= malloc(NULL);
+    // Declarando as variaveis do tipo texto/string passando o tamanho
+    char nome[30], sobrenome[30];
 
     // Lendo as mesmas
 
