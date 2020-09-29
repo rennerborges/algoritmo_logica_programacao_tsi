@@ -3,13 +3,13 @@
 
 int main() {
 
-    int valor_alcool, valor_gasolina, txv;
+    float valor_alcool, valor_gasolina, txv;
     
     printf("Digite o valor do álcool:");
-    scanf("%d", &valor_alcool);
+    scanf("%f", &valor_alcool);
 
     printf("Digite o valor da gasolina:");
-    scanf("%d", &valor_gasolina);
+    scanf("%f", &valor_gasolina);
 
     txv = valor_alcool/valor_gasolina;
 
